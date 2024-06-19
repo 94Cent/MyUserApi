@@ -16,7 +16,7 @@ new product, PUT update product, DELETE product) and other operations on an Api 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/94cent/MyUserApi/new/master.git
+git clone https://github.com/94cent/MyUserApi.git
 cd MyUser.API
 ```
 SETTING UP THE DATABASE
