@@ -1,0 +1,218 @@
+2024-06-20 08:53:41.761 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-06-20 08:53:41.895 +01:00 [DBG] Hosting starting
+2024-06-20 08:53:41.947 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-20 08:53:41.963 +01:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-ec7b8345-8201-43c0-9023-d90290e346cd.xml'.
+2024-06-20 08:53:41.986 +01:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-f5bc8b35-71ba-491a-986c-f692ec3bfd76.xml'.
+2024-06-20 08:53:42.008 +01:00 [DBG] Found key {ec7b8345-8201-43c0-9023-d90290e346cd}.
+2024-06-20 08:53:42.021 +01:00 [DBG] Found key {f5bc8b35-71ba-491a-986c-f692ec3bfd76}.
+2024-06-20 08:53:42.030 +01:00 [DBG] Considering key {ec7b8345-8201-43c0-9023-d90290e346cd} with expiration date 2024-09-17 18:06:55Z as default key.
+2024-06-20 08:53:42.035 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-06-20 08:53:42.040 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-06-20 08:53:42.042 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-06-20 08:53:42.051 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-06-20 08:53:42.054 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-06-20 08:53:42.057 +01:00 [DBG] Using key {ec7b8345-8201-43c0-9023-d90290e346cd} as the default key.
+2024-06-20 08:53:42.059 +01:00 [DBG] Key ring with default key {ec7b8345-8201-43c0-9023-d90290e346cd} was loaded during application startup.
+2024-06-20 08:53:42.361 +01:00 [INF] Now listening on: https://localhost:7063
+2024-06-20 08:53:42.363 +01:00 [INF] Now listening on: http://localhost:5284
+2024-06-20 08:53:42.364 +01:00 [DBG] Loaded hosting startup assembly MyUser.API
+2024-06-20 08:53:42.366 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-06-20 08:53:42.367 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-06-20 08:53:42.369 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-20 08:53:42.370 +01:00 [INF] Hosting environment: Development
+2024-06-20 08:53:42.371 +01:00 [INF] Content root path: C:\Users\HP\Downloads\projects\PS\MyUser\MyUser.API
+2024-06-20 08:53:42.372 +01:00 [DBG] Hosting started
+2024-06-20 08:55:10.744 +01:00 [DBG] Connection id "0HN4GVP7LSGN5" received FIN.
+2024-06-20 08:55:10.757 +01:00 [DBG] Connection id "0HN4GVP7LSGN5" accepted.
+2024-06-20 08:55:10.765 +01:00 [DBG] Connection id "0HN4GVP7LSGN5" started.
+2024-06-20 08:55:10.770 +01:00 [DBG] Connection id "0HN4GVP7LSGN6" accepted.
+2024-06-20 08:55:10.771 +01:00 [DBG] Connection id "0HN4GVP7LSGN6" started.
+2024-06-20 08:55:10.814 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-06-20 08:55:10.907 +01:00 [DBG] Connection 0HN4GVP7LSGN6 established using the following protocol: "Tls12"
+2024-06-20 08:55:10.925 +01:00 [DBG] Connection id "0HN4GVP7LSGN5" stopped.
+2024-06-20 08:55:10.928 +01:00 [DBG] Connection id "0HN4GVP7LSGN5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-20 08:55:10.981 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7063/api/auth/login - application/json 76
+2024-06-20 08:55:11.002 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-06-20 08:55:11.030 +01:00 [DBG] POST requests are not supported
+2024-06-20 08:55:11.075 +01:00 [DBG] 1 candidate(s) found for the request path '/api/auth/login'
+2024-06-20 08:55:11.081 +01:00 [DBG] Endpoint 'MyWebAPI.Controllers.AuthController.Authenticate (MyUser.API)' with route pattern 'api/Auth/Login' is valid for the request path '/api/auth/login'
+2024-06-20 08:55:11.088 +01:00 [DBG] Request matched endpoint 'MyWebAPI.Controllers.AuthController.Authenticate (MyUser.API)'
+2024-06-20 08:55:11.180 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-06-20 08:55:11.185 +01:00 [INF] Executing endpoint 'MyWebAPI.Controllers.AuthController.Authenticate (MyUser.API)'
+2024-06-20 08:55:11.238 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(MyUser.API.Models.Dto.LoginDto) on controller MyWebAPI.Controllers.AuthController (MyUser.API).
+2024-06-20 08:55:11.242 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-06-20 08:55:11.244 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-06-20 08:55:11.246 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-06-20 08:55:11.249 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-06-20 08:55:11.251 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-06-20 08:55:11.255 +01:00 [DBG] Executing controller factory for controller MyWebAPI.Controllers.AuthController (MyUser.API)
+2024-06-20 08:55:11.547 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-06-20 08:55:11.571 +01:00 [DBG] Executed controller factory for controller MyWebAPI.Controllers.AuthController (MyUser.API)
+2024-06-20 08:55:11.581 +01:00 [DBG] Attempting to bind parameter 'loginDto' of type 'MyUser.API.Models.Dto.LoginDto' ...
+2024-06-20 08:55:11.586 +01:00 [DBG] Attempting to bind parameter 'loginDto' of type 'MyUser.API.Models.Dto.LoginDto' using the name '' in request data ...
+2024-06-20 08:55:11.591 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2024-06-20 08:55:11.595 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2024-06-20 08:55:11.611 +01:00 [DBG] Connection id "0HN4GVP7LSGN6", Request id "0HN4GVP7LSGN6:00000001": started reading request body.
+2024-06-20 08:55:11.615 +01:00 [DBG] Connection id "0HN4GVP7LSGN6", Request id "0HN4GVP7LSGN6:00000001": done reading request body.
+2024-06-20 08:55:11.781 +01:00 [DBG] Done attempting to bind parameter 'loginDto' of type 'MyUser.API.Models.Dto.LoginDto'.
+2024-06-20 08:55:11.805 +01:00 [DBG] Done attempting to bind parameter 'loginDto' of type 'MyUser.API.Models.Dto.LoginDto'.
+2024-06-20 08:55:11.807 +01:00 [DBG] Attempting to validate the bound parameter 'loginDto' of type 'MyUser.API.Models.Dto.LoginDto' ...
+2024-06-20 08:55:11.823 +01:00 [DBG] Done attempting to validate the bound parameter 'loginDto' of type 'MyUser.API.Models.Dto.LoginDto'.
+2024-06-20 08:55:12.620 +01:00 [DBG] Entity Framework Core 9.0.0-preview.5.24306.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0-preview.5.24306.3' with options: None
+2024-06-20 08:55:12.734 +01:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .SingleOrDefault(u => u.Email == __email_0)'
+2024-06-20 08:55:13.092 +01:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.AccessFailedCount (int) Required, 1], [Property: User.ConcurrencyStamp (string), 2], [Property: User.Email (string) Required, 3], [Property: User.EmailConfirmed (bool) Required, 4], [Property: User.FirstName (string) Required, 5], [Property: User.LastName (string) Required, 6], [Property: User.LockoutEnabled (bool) Required, 7], [Property: User.LockoutEnd (DateTimeOffset?), 8], [Property: User.NormalizedEmail (string), 9], [Property: User.NormalizedUserName (string), 10], [Property: User.Password (string) Required, 11], [Property: User.PasswordHash (byte[]) Required, 12], [Property: User.PasswordSalt (byte[]) Required, 13], [Property: User.PhoneNumber (string), 14], [Property: User.PhoneNumberConfirmed (bool) Required, 15], [Property: User.SecurityStamp (string), 16], [Property: User.TwoFactorEnabled (bool) Required, 17], [Property: User.UserName (string), 18] }
+            SELECT TOP(2) u.Id, u.AccessFailedCount, u.ConcurrencyStamp, u.Email, u.EmailConfirmed, u.FirstName, u.LastName, u.LockoutEnabled, u.LockoutEnd, u.NormalizedEmail, u.NormalizedUserName, u.Password, u.PasswordHash, u.PasswordSalt, u.PhoneNumber, u.PhoneNumberConfirmed, u.SecurityStamp, u.TwoFactorEnabled, u.UserName
+            FROM Users AS u
+            WHERE u.Email == @__email_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            <>c__DisplayClass26_0.queryExpression, 
+            RelationalShapedQueryCompilingExpressionVisitor._useRelationalNulls
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("MyUser.API.Models.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("MyUser.API.Models.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("MyUser.API.Models.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                    instance.<AccessFailedCount>k__BackingField = dataReader.GetInt32(1);
+                                    instance.<ConcurrencyStamp>k__BackingField = dataReader.IsDBNull(2) ? default(string) : dataReader.GetString(2);
+                                    instance.<Email>k__BackingField = dataReader.GetString(3);
+                                    instance.<EmailConfirmed>k__BackingField = dataReader.GetBoolean(4);
+                                    instance.<FirstName>k__BackingField = dataReader.GetString(5);
+                                    instance.<LastName>k__BackingField = dataReader.GetString(6);
+                                    instance.<LockoutEnabled>k__BackingField = dataReader.GetBoolean(7);
+                                    instance.<LockoutEnd>k__BackingField = dataReader.IsDBNull(8) ? default(DateTimeOffset?) : (DateTimeOffset?)dataReader.GetFieldValue<DateTimeOffset>(8);
+                                    instance.<NormalizedEmail>k__BackingField = dataReader.IsDBNull(9) ? default(string) : dataReader.GetString(9);
+                                    instance.<NormalizedUserName>k__BackingField = dataReader.IsDBNull(10) ? default(string) : dataReader.GetString(10);
+                                    instance.<Password>k__BackingField = dataReader.GetString(11);
+                                    instance.<PasswordHash>k__BackingField = dataReader.GetFieldValue<byte[]>(12);
+                                    instance.<PasswordSalt>k__BackingField = dataReader.GetFieldValue<byte[]>(13);
+                                    instance.<PhoneNumber>k__BackingField = dataReader.IsDBNull(14) ? default(string) : dataReader.GetString(14);
+                                    instance.<PhoneNumberConfirmed>k__BackingField = dataReader.GetBoolean(15);
+                                    instance.<SecurityStamp>k__BackingField = dataReader.IsDBNull(16) ? default(string) : dataReader.GetString(16);
+                                    instance.<TwoFactorEnabled>k__BackingField = dataReader.GetBoolean(17);
+                                    instance.<UserName>k__BackingField = dataReader.IsDBNull(18) ? default(string) : dataReader.GetString(18);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("MyUser.API.Models.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: MyUser.API.Data.ApplicationDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-06-20 08:55:13.182 +01:00 [DBG] Creating DbConnection.
+2024-06-20 08:55:13.228 +01:00 [DBG] Created DbConnection. (46ms).
+2024-06-20 08:55:13.235 +01:00 [DBG] Opening connection to database 'Vincent_Product' on server 'localhost'.
+2024-06-20 08:55:13.699 +01:00 [DBG] Opened connection to database 'Vincent_Product' on server 'localhost'.
+2024-06-20 08:55:13.704 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-06-20 08:55:13.713 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2024-06-20 08:55:13.725 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (21ms).
+2024-06-20 08:55:13.737 +01:00 [DBG] Executing DbCommand [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-06-20 08:55:13.810 +01:00 [INF] Executed DbCommand (76ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2024-06-20 08:55:13.875 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-20 08:55:13.960 +01:00 [DBG] Closing data reader to 'Vincent_Product' on server 'localhost'.
+2024-06-20 08:55:13.972 +01:00 [DBG] A data reader for 'Vincent_Product' on server 'localhost' is being disposed after spending 149ms reading results.
+2024-06-20 08:55:13.978 +01:00 [DBG] Closing connection to database 'Vincent_Product' on server 'localhost'.
+2024-06-20 08:55:13.987 +01:00 [DBG] Closed connection to database 'Vincent_Product' on server 'localhost' (9ms).
+2024-06-20 08:55:14.033 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-06-20 08:55:14.038 +01:00 [DBG] No information found on request to perform content negotiation.
+2024-06-20 08:55:14.039 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-06-20 08:55:14.040 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-06-20 08:55:14.042 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-06-20 08:55:14.044 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-06-20 08:55:14.060 +01:00 [INF] Executed action MyWebAPI.Controllers.AuthController.Authenticate (MyUser.API) in 2802.3475ms
+2024-06-20 08:55:14.066 +01:00 [INF] Executed endpoint 'MyWebAPI.Controllers.AuthController.Authenticate (MyUser.API)'
+2024-06-20 08:55:14.072 +01:00 [DBG] Connection id "0HN4GVP7LSGN6" completed keep alive response.
+2024-06-20 08:55:14.078 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2024-06-20 08:55:14.088 +01:00 [DBG] Disposing connection to database 'Vincent_Product' on server 'localhost'.
+2024-06-20 08:55:14.092 +01:00 [DBG] Disposed connection to database '' on server '' (3ms).
+2024-06-20 08:55:14.095 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7063/api/auth/login - 200 null text/plain; charset=utf-8 3124.1865ms
+2024-06-20 08:55:45.503 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7063/api/auth/secured - null null
+2024-06-20 08:55:45.522 +01:00 [DBG] The request path  does not match the path filter
+2024-06-20 08:55:45.526 +01:00 [DBG] 1 candidate(s) found for the request path '/api/auth/secured'
+2024-06-20 08:55:45.527 +01:00 [DBG] Endpoint 'MyWebAPI.Controllers.AuthController.SecureEndpoint (MyUser.API)' with route pattern 'api/Auth/Secured' is valid for the request path '/api/auth/secured'
+2024-06-20 08:55:45.530 +01:00 [DBG] Request matched endpoint 'MyWebAPI.Controllers.AuthController.SecureEndpoint (MyUser.API)'
+2024-06-20 08:55:45.599 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10206: Unable to validate audience. The 'audiences' parameter is empty.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-06-20 08:55:45.606 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10206: Unable to validate audience. The 'audiences' parameter is empty.
+2024-06-20 08:55:45.611 +01:00 [DBG] Policy authentication schemes  did not succeed
+2024-06-20 08:55:45.617 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-06-20 08:55:45.628 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-06-20 08:55:45.630 +01:00 [DBG] Connection id "0HN4GVP7LSGN6" completed keep alive response.
+2024-06-20 08:55:45.632 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7063/api/auth/secured - 401 0 null 128.684ms

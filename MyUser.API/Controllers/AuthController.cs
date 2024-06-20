@@ -119,7 +119,7 @@ namespace MyWebAPI.Controllers
 
             // Generate token 
             var securityKey = new SymmetricSecurityKey(
-                Convert.FromBase64String(_configuration["Authentication:SecretKey"]));
+                Encoding.ASCII.GetBytes(_configuration["Authentication:SecretKey"]));
             var signingCredentials = new SigningCredentials(
                 securityKey, SecurityAlgorithms.HmacSha256);
             
@@ -132,7 +132,7 @@ namespace MyWebAPI.Controllers
 
             var jwtSecurityToken = new JwtSecurityToken(
                 _configuration["Authentication:Issuer"],
-                _configuration["Authentication: Audience"],
+                _configuration["Authentication:Audience"],
                 claimsForToken,
                 DateTime.UtcNow,
                 DateTime.Now.AddHours(1),
@@ -165,5 +165,11 @@ namespace MyWebAPI.Controllers
             return user;
         }
 
+        [Authorize]
+        [HttpGet("Secured")]
+        public IActionResult SecureEndpoint()
+        {
+            return Ok("You have accessed a secure endpoint!");
+        }
     }
 }

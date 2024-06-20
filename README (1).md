@@ -66,6 +66,16 @@ Response:
 200 OK: JWT token.
 401 Unauthorized: Invalid credentials.
 
+USER Secured Endpoint
+POST /api/auth/secured
+Request Body:
+select authorization, Type: bearer token and enter the token generated
+
+Response:
+
+200 OK
+401 Unauthorized: Invalid credentials.
+
 CRUD
 /api/products
 for crud operations 
@@ -75,3 +85,5 @@ Controllers: Contains the API controllers.
 Data: Contains the ApplicationDbContext class for Entity Framework Core.
 Models: Contains the data models and DTOs.
 Services: Contains the email service implementation.
+
+## A postman collection file is added the the file directory 

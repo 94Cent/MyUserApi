@@ -185,3 +185,6 @@ C:\Users\HP\Downloads\projects\PS\MyUser\MyUser.API\bin\Debug\net8.0\Newtonsoft.
 C:\Users\HP\Downloads\projects\PS\MyUser\MyUser.API\bin\Debug\net8.0\MyUser.API.staticwebassets.runtime.json
 C:\Users\HP\Downloads\projects\PS\MyUser\MyUser.API\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\HP\Downloads\projects\PS\MyUser\MyUser.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\HP\Downloads\projects\PS\MyUser\MyUser.API\obj\Debug\net8.0\MyUser.API.sourcelink.json
+C:\Users\HP\Downloads\projects\PS\MyUser\MyUser.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\HP\Downloads\projects\PS\MyUser\MyUser.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
